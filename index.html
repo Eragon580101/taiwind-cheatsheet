@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- <script src="https://cdn.tailwindcss.com"></script> -->
+    <link rel="stylesheet" href="/input.css" />
+    <title>Tailwind Infos</title>
+  </head>
+  <body class="bg-stone-400">
+      <div class="font-and-sizings mx-4 my-4 bg-slate-400 p-4 rounded-lg shadow-xl">
+        <p class="font-extrabold">:With margin horizontal 4 and margin vertical 4 and rounded-lg with shadow-xl and font-extrabold</p>
+        <h1 class="text-center text-yellow-900 font-bold text-4xl my-1">Fonts and Sizings(4xl)</h1>
+        <div class="font-bold text-3xl tracking-widest">
+          This is font-bold and text-3xl and letter spacing with tracking-widest
+        </div>
+        <div class="font-medium text-2xl tracking-wider">
+          This is font-medium and text-2xl and letter spacing with tracking-wider
+        </div>
+        <div class="font-normal text-lg tracking-wide">
+          This is font-normal and text-lg and letter spacing with tracking-wide
+        </div>
+        <div class="font-light text-sm tracking-tighter">
+          This is font-light and text-sm  and letter spacing with tracking-tighter
+        </div>
+      </div>
+      <div class="tailwind-details mx-auto my-4 ease-in-out transition-all bg-slate-400 p-10 rounded-lg shadow-xl w-fit">
+        <table class="table-auto border-2  border-slate-500">
+          <thead>
+            <th class="font-bold text-lg border-2 px-4 border-slate-500 p-2">CSS Property</th>
+            <th class="font-bold text-lg border-2 px-4 border-slate-500 p-2">Tailwind Property</th>
+          </thead>
+          <tbody>
+            <tr>
+              <td class="font-medium border border-slate-500 p-2">Line Height</td>
+              <td class="font-medium border px-4 border-slate-500 p-2">leading-0/1/2</td>
+            </tr>
+            <tr>
+              <td class="font-medium border px-4 border-slate-500 p-2">Font Style</td>
+              <td class="font-medium border px-4 border-slate-500 p-2">italic/not-italic</td>
+            </tr>
+            <tr>
+              <td class="font-medium border px-4 border-slate-500 p-2">Letter Spacing</td>
+              <td class="font-medium border px-4 border-slate-500 p-2">tracking-tighter/wider/wider</td>
+            </tr>
+            <tr>
+              <td class="font-medium border px-4 border-slate-500 p-2">Text Decoration</td>
+              <td class="font-medium border px-4 border-slate-500 p-2">decoration-solid/double/wavy</td>
+            </tr>
+            <tr>
+              <td class="font-medium border px-4 border-slate-500 p-2">Text Transform</td>
+              <td class="font-medium border px-4 border-slate-500 p-2">uppercase/lowercase/capitalize/normal-case</td>
+            </tr>
+            <tr>
+              <td class="font-medium border px-4 border-slate-500 p-2">Text Overflow</td>
+              <td class="font-medium border px-4 border-slate-500 p-2">truncate/text-ellipis/text-clip</td>
+            </tr>
+            <tr>
+              <td class="font-medium border px-4 border-slate-500 p-2">Vertical align</td>
+              <td class="font-medium border px-4 border-slate-500 p-2">align-baseline/top/middel/bottom</td>
+            </tr>
+            <tr>
+              <td class="font-medium border px-4 border-slate-500 p-2">Border Radius</td>
+              <td class="font-medium border px-4 border-slate-500 p-2">rounded-</td>
+            </tr>
+            <tr>
+              <td class="font-medium border px-4 border-slate-500 p-2">Border Width</td>
+              <td class="font-medium border px-4 border-slate-500 p-2">border-0/1/2</td>
+            </tr>
+            <tr>
+              <td class="font-medium border px-4 border-slate-500 p-2">Box Shadow</td>
+              <td class="font-medium border px-4 border-slate-500 p-2">shadow-sm/lg/xl</td>
+            </tr>
+            <tr>
+              <td class="font-medium border px-4 border-slate-500 p-2">Transition duration</td>
+              <td class="font-medium border px-4 border-slate-500 p-2">duration-75/100</td>
+            </tr>
+            <tr>
+              <td class="font-medium border px-4 border-slate-500 p-2">Transition Delay</td>
+              <td class="font-medium border px-4 border-slate-500 p-2">delay-75/100</td>
+            </tr>
+          </tbody>
+        
+      </table>
+      </div>
+      <div class="Square-Brackets mx-4 my-4 p-10 h-[37rem] w-[30rem] lg:absolute sm:static md:static sm:mx-auto top-60 left-10 bg-zinc-500 text-blue-200 rounded-lg shadow-xl">
+        <p class="font-bold">An absolutely placed div with top-60 and left-10</p>
+        <div class="text-blue-200">
+          <p>For custom value of margin we use</p> 
+          <p> <span class="font-bold text-teal-500">css_property-[value_unit]</span></p> 
+          <p>This adds a 64px margin on top and bottom</p>
+          <p class="pt-[12px] top-[10%]">It can be used with any element</p>
+          <p>Like this  <span class="font-bold text-teal-500">py-[24px] top-[10%]</span></p>
+        </div>
+      </div>
+      <div class="Screen-Sizes mx-4 my-4 p-10 h-[37rem] w-[30rem] lg:absolute sm:static sm:mx-auto top-60 right-10 bg-zinc-500 text-blue-200 rounded-lg shadow-xl">
+        <p class="font-bold">An absolutely placed div with top-60 and right-10</p>
+        <div class="text-blue-200">
+          <div class="font-bold text-xl pt-2">Responsive website</div>
+          <table class="table-auto border-2  border-slate-800 mt-4">
+            <thead>
+              <th class="font-bold text-lg border-2 px-4 border-slate-800 p-2">Minimum Width</th>
+              <th class="font-bold text-lg border-2 px-4 border-slate-800 p-2">Tailwind Property</th>
+            </thead>
+            <tbody>
+              <tr>
+                <td class="font-medium border-2 border-slate-800 p-2">640px</td>
+                <td class="font-medium border-2 px-4 border-slate-800 p-2">sm</td>
+              </tr>
+              <tr>
+                <td class="font-medium border-2 border-slate-800 p-2">768px</td>
+                <td class="font-medium border-2 px-4 border-slate-800 p-2">md</td>
+              </tr>
+              <tr>
+                <td class="font-medium border-2 border-slate-800 p-2">1024px</td>
+                <td class="font-medium border-2 px-4 border-slate-800 p-2">lg</td>
+              </tr>
+              <tr>
+                <td class="font-medium border-2 border-slate-800 p-2">1280px</td>
+                <td class="font-medium border-2 px-4 border-slate-800 p-2">xl</td>
+              </tr>
+              <tr>
+                <td class="font-medium border-2 border-slate-800 p-2">1536px</td>
+                <td class="font-medium border-2 px-4 border-slate-800 p-2">2xl</td>
+              </tr>
+            </tbody>
+          </table>
+          <p class="font-medium">
+            CSS properties for any above screen sizes can be defined by 
+            prefxing tailwind class with respective tailwind screen properties
+            like <span class="font-bold text-teal-500">sm:font-medium</span> or  <span class="font-bold text-teal-500"> lg:text-2xl</span>
+          </p>
+        </div>
+      </div>
+      <div class="Pseudo-Class mx-4 my-4 p-10  w-fit inline-block bg-zinc-500 text-blue-200 rounded-lg shadow-xl">
+        <p>
+          Like Screens css pseudo css class can also be customized by prefixing class with the 
+          pseudo class like  <span class="font-bold text-teal-500">class="hover:scale-0" class="focus:outline-dashed"</span>
+        </p>
+        <p>
+          screen and pseudo classes can be combined like <span class="font-bold text-teal-500">class="lg:hover:scale-110"</span>
+        </p>
+      </div>
+      <div class="Button mx-auto my-4 p-10  w-fit sm:mx-auto lg:inline-block bg-zinc-500 text-blue-200 rounded-lg shadow-xl">
+        <p class="bg-purple-600 p-4 rounded-2xl transition ease-in-out duration-1000 hover:scale-110 hover:outline-purple-600 hover:outline-dashed focus:outline-yellow-600 active:scale-75 active:bg-purple-600 hover:bg-gray-300 hover:text-slate-500
+        active:outline-none">
+          This will change when hovered and clicked
+        </p>
+      </div>
+      <div class="Apply-and-layer mx-4 my-4 p-10  w-fit align-top lg:inline-block sm:mx-auto bg-zinc-500 text-blue-200 rounded-lg shadow-xl">
+        <p>
+          Using @apply directive: <span class="font-bold text-teal-500">.className{@apply tailwind-classes}</span>
+        </p>
+        <p>
+          Using @layer directive <span class="font-bold text-teal-500">Used to define in which layer CSS is rendered using @apply </span>
+        </p>
+        <p>
+          <span class="font-bold text-teal-500">@layer utilities{.className{@apply tailwind-classes}} </span>
+        </p>
+      </div>
+      <div class="Customization mx-4 my-4 p-10  w-fit lg:inline-block sm:mx-auto bg-zinc-500 text-blue-200 rounded-lg shadow-xl">
+        <p class="font-extrabold text-xl">
+          Customizing Tailwind Config
+        </p>
+        <p>
+          <span class="font-bold text-teal-500">npx tailwindcss init ConfigFileName --full</span>
+          <p>- Generate a new config file with different default values</p>
+        </p>
+        <p>
+          <span class="font-bold text-teal-500">Add custom value to default config file theme.extend.defaultValue{customvalue}</span>
+          <br>
+          theme: {
+            <br>
+            <span class="ml-4">extend: {</span>
+              <br>
+              <span class="ml-8">animation: {</span>
+                <br>
+                <span class="ml-12">'bounce-short': 'bounce 1s ease-out 1'</span>
+                <br>
+              <span class="ml-8">},</span>
+              <br>
+            },
+        </p>
+        <p>Screens breakpoint can not be added inside extend</p>
+      </div>
+      <div class="Apply-and-layer mx-4 my-4 p-10 absolute -bottom-[45%] left-4 w-fit align-top lg:inline-block sm:mx-auto bg-zinc-500 text-blue-200 rounded-lg shadow-xl">
+        <p>
+          Deployment: <span class="font-bold text-teal-500">add "build": "vite build"</span> to package.json
+        </p>
+        <p>
+          Give <span class="font-bold text-teal-500">Relative</span> path to css files
+        </p>
+        <p>
+          <span class="font-bold text-teal-500">Wil be available at dist folder</span>
+        </p>
+      </div>
+  </body>
+</html>
+
